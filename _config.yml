@@ -228,3 +228,22 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description:
+      image:
+      categories:
+      tags:
+      published: false
+      toc: true
+      comments: true
+    posts:
+      description:
+      image:
+      categories:
+      tags:
+      published: true
+      toc: true
+      comments: true
